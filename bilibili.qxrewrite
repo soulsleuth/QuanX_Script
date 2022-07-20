@@ -1,5 +1,5 @@
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url reject-200
-^https?:\/\/app\.bilibili\.com\/x\/v2\/dm\/recommend url reject-200
+^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/recommend url reject-200
 https://app.bilibili.com/x/v2/search/square* url reject-200
 # 去除动态中的话题
 ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
